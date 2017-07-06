@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Samsung</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="text_animals">Animals</string>
+    <string name="text_architecture">Architecture</string>
+    <string name="text_food">Food</string>
+    <string name="text_posters">Posters</string>
+    <string name="text_scenery">Scenery</string>
+    <string name="title_activity_album_images">AlbumImages</string>
+    <string name="txt_samsung_albums">Samsung Albums</string>
+</resources>

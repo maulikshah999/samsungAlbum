@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginLeft="@dimen/txt_10dp"
+    android:layout_marginRight="@dimen/txt_15dp"
+    android:gravity="center"
+    android:descendantFocusability="beforeDescendants"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgAlbumFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/txt_5dp" />
+
+    <TextView
+        android:id="@+id/tvAlbumTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/txt_10dp"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/txt_15dp" />
+
+    <ProgressBar
+        android:id="@+id/progAlbumImages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible"/>
+
+</LinearLayout>
